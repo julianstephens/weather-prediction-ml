@@ -5,11 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+rope = "*"
 
 [packages]
 numpy = "*"
 pandas = "*"
 scikit-learn = "*"
+jedi = "*"
+python-language-server = "*"
 
 [requires]
 python_version = "3.6"
